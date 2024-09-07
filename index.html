@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>css-generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container"></div>
+        <div class="tool">
+            <div class="form-group">
+                <label>All corner
+                    <span id="all_value"></span>
+                </label>
+                <input type="range" value="10" min="0" max="400" id="all">        
+            </div>
+            <div class="form-group">
+                <label>Border size
+                    <span id="border_value"></span>
+                </label>
+                <input type="range" value="3" min="0" max="20" id="border">        
+            </div>
+            <div class="form-group">
+                <label>Border Style</label>
+                <select id="border_style">
+                    <option>Solid</option>
+                    <option>Dotted</option>
+                    <option>Dashed</option>
+                    <option>Double</option>
+                    <option>Groove</option>
+                    <option>Ridge</option>
+                    <option>Inset</option>
+                    <option>Outset</option>
+                    <option>None</option>
+                    <option>Hidden</option>
+                
+                </select>
+            </div>
+
+            <div class="form-group">
+                <textarea id="code"></textarea>
+            </div>
+            <div class="form-group">
+                <button id="btncopy">copy code</button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+        
+
+
+
+
+</html>
